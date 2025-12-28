@@ -3,6 +3,8 @@ from scripts.burpsuite.ai_ingest import ingest_burp_xml
 
 app = FastAPI()
 
+
+
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
